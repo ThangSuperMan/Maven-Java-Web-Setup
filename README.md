@@ -5,7 +5,7 @@
 mvn archetype:generate -DgroupId=com.javawebtutorhehe -DartifactId=SampleWebApplicationHaha -DarchetypeArtifactId=maven-arc
 hetype-webapp -DinteractiveMode=false
 
-# Require jetty plugin added in pom.xmo
+# Require jetty plugin added in pom.xml
 # Install the jetty (just for the first time) and run the server based on the port number
 mvn jetty:run
 ```
